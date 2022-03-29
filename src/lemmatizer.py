@@ -6,7 +6,6 @@ class Lemmatizer():
     def __init__(self, morfeusz: Morfeusz, concraft: Concraft):
         self.concraft = concraft
         self.morfeusz = morfeusz
-        self.server = None
 
     def analyse(self, string):
         return self.concraft.disamb(self.morfeusz.analyse(string))

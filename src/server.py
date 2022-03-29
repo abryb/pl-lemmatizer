@@ -36,7 +36,6 @@ def lemmatize():
 print("Running Concraft server...")
 concraft_server = Server(
     model_path="/app/data/model.gz",
-    concraft_path="/root/.local/bin/concraft-pl"
 )
 lemmatizer = Lemmatizer(
     Morfeusz(expand_tags=True),

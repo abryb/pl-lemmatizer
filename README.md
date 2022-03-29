@@ -1,5 +1,5 @@
 ## Server
-###$ running with docker
+### running with docker
 ```shell script
 docker run -it -p 5000:5000 abryb/pl-lemmatizer
 ```
